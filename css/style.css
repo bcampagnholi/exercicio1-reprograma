@@ -1,0 +1,260 @@
+html{
+    margin:0;
+    font-size:14px;
+    font-family:'Nunito';
+}
+body{
+    box-sizing: border-box;
+    margin: 0%;
+}
+h1{
+    align-content: center;
+    font-family:'Varela Round';
+    font-size:7.5rem;
+    color:#fff;
+    padding-top: 8%;
+    margin:0%;
+}
+
+.banner__subtitle{
+    padding-bottom:2rem;
+    font-size:1.375rem;
+    color:#fff;
+}
+
+h2{
+    padding:1rem;
+    font-size:1.375rem;
+    color:#fff;
+}
+
+p{
+    margin:0%;
+    color:#fff;
+    padding-bottom: 3rem;
+}
+
+
+
+.nav__menu{
+    padding: 1rem;
+}
+
+/*add media query*/
+.nav__mobile{
+    display:none;
+}
+
+
+.nav__link{
+    text-decoration: none;
+    margin:0%;
+    padding-right:6%;
+    color:#fff;
+
+}
+
+
+nav{
+    text-decoration: none;
+    text-align: right;
+    margin: auto;
+    display:inline-block;
+    Background: #a0bed0;
+    width:100%;
+}
+
+/*PAGINA 1*/
+.pagina1{
+    text-align: center;
+}
+
+.banner_transition{
+    align-content: center;
+    background-image: url(https://file.globalupload.io/nuLrj22TUq.jpg);
+    background-repeat: no-repeat;
+    background-color:#fff;
+    background-size: cover;
+    height: 500px;
+}
+
+.banner_title{
+    text-align: center;
+}
+
+.botao-capa{
+    border-radius: 1rem;
+    background-color: #a0bed0;     
+    color: #fff;
+    padding: 1rem 3rem;
+    text-decoration: none;
+}
+
+.botao-capa:hover{
+    background-color:#36b0e0;
+}
+
+.about{
+    background-color:#4b4b4b;
+    padding-top: 1rem;
+}
+
+/*PAGINA 1*/
+
+
+/*PAGINA 2*/
+.destination--siberia__img{
+    width: 50%;
+    height:inherit;
+}
+
+.destination__text{
+    text-align: center;
+    width: 50%;
+}
+
+/*add media query*/
+.destination_siberia{
+    align-content: center;
+    display:flex;
+}
+
+h3{
+    font-size:1.375rem;
+    padding-top: 15%;
+
+}
+
+p.descricao-siberia{
+    color:black;
+    padding: 1px 2px;
+}
+
+/*PAGINA 2*/
+
+.groenlandia-antartida{
+    align-content:center;
+    display: flex;
+}
+
+/*PAGINA 3 - GROENLANDIA*/
+h4{
+    color: #fff;
+    font-size:1.375rem;
+    padding-top: 15%;
+
+}
+
+/*add media query*/
+.groenlandia{
+    display: flex;
+    background:#000;
+}
+
+.destination--groenlandia__img{
+    width: 50%;
+    height:inherit;
+}
+
+.deion_groenlandia{
+    width:50%;
+    height: inherit;
+    text-align: left;
+}
+
+/*p.descricao_groenlandia{
+    
+}*/
+
+
+/*PAGINA 3 - ANTARTIDA*/
+
+h5{
+    color: #fff;
+    font-size:1.375rem;
+    padding-top: 15%;
+    padding-right:27px;
+}
+
+/*add media query*/
+.antartida{
+    display: flex;
+    background:#000;
+}
+
+
+.deion__antartida{
+    width:50%;
+    height: inherit;
+    text-align: right;
+}
+
+.destination--antartida__img{
+    width: 50%;
+    height:inherit;
+}
+
+/*p.descricao_antartida{
+    
+}*/
+
+.footer{
+    background-color: #000;
+    align-content: center;
+}
+
+.telefone{
+    color: #697e8a;
+    text-decoration: none;
+}
+
+.telefone:hover{
+    color: #36b0e0;
+}
+
+@media (max-width: 600px) {
+    .groenlandia,
+    .antartida{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    }
+    .destination--groenlandia__img,
+    .destination--antartida__img{
+        width: 100%;
+    }
+    .deion_groenlandia,
+    .deion__antartida{
+        width: 100%;
+        text-align: center;
+    }
+    .nav__link{
+        display:none;
+    }
+    .nav__mobile{
+        display:inline;
+    }
+}
+
+/*#sobre
+
+#destinos
+
+#contato
+
+#sabermais*/
+
+
+
+/*@media (min-width: 900px){
+    .html {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .html {
+       font-size:1rem;
+    }
+}*/
